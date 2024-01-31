@@ -1,0 +1,211 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; 
+}
+body{
+      height: 5000px;
+      background-image :url(ss.33445.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+     
+ 
+} 
+
+/* header */
+
+ nav h1 a{
+    text-align: left;
+    font-size:35px;
+    font-weight: 400px;
+    padding-left: 20px;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url(pexels-denis-zagorodniuc-3230010.jpg);
+    background-size: cover;
+    background-position: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    border: 5px;
+    
+    
+ 
+}
+/* ........................................... */
+/* links */
+nav{
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(220, 195, 152, 0.984);
+    border:solid rgba(42, 34, 34, 0.81) 2px ;
+   
+      
+    
+}
+nav .links li{
+    list-style-type: none;
+    display: inline;
+    margin: 0.8 1.5rem;
+    
+    
+}
+nav .links li a{
+   
+    text-decoration:none;
+    text-transform: capitalize;
+    transition: 0.4s;
+    display: inline;
+    padding:10px;
+    margin: 10px;
+    color: rgb(18, 16, 14);
+    font-size:25px;
+    font-weight:300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav .links li a:hover{
+   color: rgb(255, 255, 255);
+}
+
+/* ................................................ */
+
+/* cladding */
+h2{
+    color: rgba(121, 73, 11, 0.904);
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 50px;
+    padding-top: 80px;
+    margin-bottom: 2px;
+}
+
+#cladding>img{
+    width: 500px;
+    height: 700px;
+    border-radius:40px;
+    padding:6px;
+    margin: 6px;
+    flex-wrap: wrap;
+
+}
+#cladding{
+   
+    background-color: #81652c1c;
+    text-align: center;
+    color: #f0f8ff8c;
+    margin-bottom: 20px;
+    display:flexbox;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-color: rgba(116, 112, 121, 0.612);
+}
+
+
+/* ..................................................... */
+
+/*door  */
+#door>img{
+    width: 500px;
+    height: 700px;
+    border-radius:40px;
+    padding:30px;
+    margin: 6px;
+    flex-wrap: wrap;
+
+
+}
+#door{
+   
+    background-color: #81652c1c;
+    text-align: center;
+    color: #f0f8ff8c;
+    margin:0px;
+    margin-top: 8px;
+     border-style: solid;
+    border-color: rgba(116, 112, 121, 0.612);
+
+}
+#door #ss{
+    color: rgb(9, 6, 3);
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 50px;
+    padding-top:20px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+
+}
+/* .......................................................... */
+/* windows */
+#windows>img{
+    width: 500px;
+    height: 700px;
+    border-radius:40px;
+    padding:15px;
+    margin: 6px;
+    flex-wrap: wrap;
+
+}
+#windows{
+    background-color: #81652c1c;
+    text-align: center;
+    color: #f0f8ff8c;
+    margin-bottom: 40px;
+    margin-top:40px;
+    border-style: solid;
+    border-color: rgba(116, 112, 121, 0.612);
+}
+#windows #ww{
+     color: rgba(9, 6, 2, 0.979);
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 50px;
+    padding-top:20px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+  
+}
+/* .............................................................. */
+/* Placones */
+#placones>img{
+    width: 500px;
+    height: 700px;
+    border-radius:40px;
+    padding:15px;
+    margin: 6px;
+    flex-wrap: wrap;
+
+}
+#placones{
+    background-color: #81652c1c;
+    text-align: center;
+    color: #f0f8ff8c;
+    margin-bottom: 40px;
+    margin:0px;
+    border-style: solid;
+    border-color: rgba(116, 112, 121, 0.612);
+}
+#placones #rr{
+    color: rgb(11, 8, 2);
+   font-size: 50px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: 50px;
+   padding-top:20px;
+   margin-top: 0px;
+   margin-bottom: 2px;
+ 
+}
+
+/* .................................................................. */
+ #end>p{
+    font-size: 50px;
+    font-weight: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: rgb(8, 6, 3);
+}
